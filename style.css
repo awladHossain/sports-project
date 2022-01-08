@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif, 'Open Sans';
+    box-sizing: border-box;
+}
+/* orginization */
+.header-part h6{
+    font-family: 'Fjalla One', 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+  
+}
+.header-part h2{
+    position: relative;
+}
+.header-part h2::before{
+    position: absolute;
+    content: "";
+    height: 1px;
+    width: 81px;
+    display: block;
+    border: 1px solid #333333;
+    margin-top: 90px;
+    margin-left: 510px;
+}
+.organization-content p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #000000;
+
+}
+
+/* contact page */
+
+.content-banner p{
+    font-size: 16px;
+    line-height: 26px;
+    color: #666666;
+}
+.contact-content{
+    background: #4A148C;
+}
+.contact-content p{
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+    
+}
+.pointer img{
+    position: absolute;
+    margin-top: 2px;
+}
+.pointer p{
+   position: relative;
+   padding-left: 50px;
+}
+/* partnership */
+.partnership-content h4{
+    font-family: 'Poppins', 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #444444;
+}
+/* training */
+.training-content h4{
+    font-family: 'Poppins', 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 45px;
+    color: #444444;
+}
+/* finace */
+.finance1234{
+    background: url("img/finance/Rectangle\ 4\ \(3\).png");
+    background-size: cover;
+    height: 500px;
+    background-position: center;
+    position: relative;
+}
+.finance-content1234{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   
+}
+/* shop page */
+.shop{
+    background: url("img/shop/Rectangle\ 2\ \(1\).png");
+    background-size: cover;
+    background-position: center;
+   
+}
+.shop-content h2{
+    font-family: 'Poppins', 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 47px;
+    line-height: 70px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.shop-content h1{
+    font-family: 'Fjalla One', 'Open Sans';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 101px;
+    color: #E9E100;
+}
+.shop-content p{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+.shop-content a{
+   padding: 10px 30px;
+   background: #E9E100;
+   font-style: normal;
+   font-weight: 600;
+   font-size: 24px;
+   line-height: 36px;
+   /* identical to box height */
+   color: #4A148C;
+}
+.shop-category h6{
+    background: blue;
+    padding: 15px;
+    color: white;
+    font-size: 30px;
+}
+.shop-category ul li a{
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #444444;
+    background: #F2F2F2;
+    border-radius: 5px;
+}
+.shop-category ul li {
+    padding: 5px;
+}
+.shop-category ul {
+    background: #F2F2F2;
+    border-radius: 5px;
+}
+/* landing */
+.who a{
+    padding: 10px 25px;
+    background: #4A148C;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.media-work{
+    background: url("img/landing/Rectangle\ 6\ \(1\).png");
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+.media-work h2{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 63px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+.media-work p{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.managing-pointer img{
+    position: absolute;
+
+}
+.managing-pointer p{
+    position: relative;
+    padding-left: 50px;
+}
+.managing-pointer a{
+    padding: 10px 30px;
+    background: #4A148C;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif, 'Open Sans';
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+
+}
+.managing-pointer {
+    background: #FFFFFF;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    margin-top: -150px;
+
+}
+.managing-pointer h4{
+    font-family: Fjalla One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #444444;
+
+}
+.events a{
+    padding: 10px 25px;
+    background: #4A148C;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.expoler a{
+    padding: 10px 25px;
+    background: #4A148C;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.professional a{
+    padding: 10px 25px;
+    background: #4A148C;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
